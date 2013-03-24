@@ -152,8 +152,10 @@ ol {
 		-webkit-border-radius:5px 5px 0 0;
 		-moz-border-radius:5px 5px 0 0;
 	}
+	.nav-item:hover .nav-submenu {
+		display:none;
+	}
 	.nav-submenu {
-		display:none !important;
 		position:static;
 		width:100%;
 	}
