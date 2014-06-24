@@ -35,6 +35,14 @@
 			$(this).children('.nav-arrow').toggleClass('nav-rotate');
 			
 		});
+		
+		$(window).resize(function() {
+      			var windowWidth = $(window).width();
+      			
+      			if (windowWidth > 768) {
+        			$('.nav-submenu').removeAttr("style");
+      			}
+    		});
 	    
 	});
 	
